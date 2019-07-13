@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu a{
+  display: inline-block;
+  margin-top: 30px !important;
+}
+
+.svg-inline--fa{
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.input-group{
+  width: auto;
+  margin-top: 1.15rem;
+}
+
+.navbar-brand img{
+  height: 3rem;
+}
