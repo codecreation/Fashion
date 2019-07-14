@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* header */
+
 .right-menu a{
   display: inline-block;
   margin-top: 30px !important;
@@ -21,5 +23,45 @@
 }
 
 .navbar-brand img{
+  left: 50%;
+  top: 20px;
   height: 3rem;
+  width: 4rem;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.header{
+  background-color: #f5f6fc;
+
+}
+
+.navbar{
+  padding: 0 35px !important;
+}
+
+.navbar-toggler-icon{
+  font-size: 1.5rem;
+}
+
+.banner{
+  position: relative;
+}
+
+.banner-img img{
+  width: 100%;
+}
+
+.banner-title{
+  position: absolute;
+  left: 60%;
+  top: 50%;
+}
+
+.banner-title h1{
+  font-size: 55px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  line-height: 70px;
+  padding: 0 10px 0 10px;
 }
